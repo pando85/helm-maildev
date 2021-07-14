@@ -7,13 +7,13 @@
 To install the repo just run:
 
 ```bash
-helm repo add maildev https://maildev.github.io/helm/
+helm repo add maildev https://pando85.github.io/helm-maildev/
 helm repo update
 ```
 
 ## Helm Charts
 
-* [maildev](https://maildev.github.io/helm/)
+* [maildev](https://pando85.github.io/helm-maildev/)
 
   ```bash
   helm install my-release maildev/maildev
