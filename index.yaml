@@ -2,6 +2,34 @@ apiVersion: v1
 entries:
   maildev:
   - apiVersion: v2
+    appVersion: 2.0.0-beta3
+    created: "2021-07-14T13:43:47.040016916Z"
+    description: SMTP Server + Web Interface for viewing and testing emails during
+      development.
+    digest: 1fe633e47291ccb458f289e2def0a12783aa25b7e191bf5fcbf1585bc145386a
+    home: https://maildev.github.io/maildev/
+    icon: https://avatars1.githubusercontent.com/u/26743469
+    keywords:
+    - maildev
+    - smtp
+    - nodemailer
+    - smtp-server
+    - mailcatcher
+    - testing
+    - development
+    - developer-tools
+    - nodejs
+    maintainers:
+    - email: pando85@users.noreply.github.com
+      name: pando85
+    name: maildev
+    sources:
+    - https://github.com/pando85/helm-maildev
+    type: application
+    urls:
+    - https://github.com/pando85/helm-maildev/releases/download/maildev-0.2.1/maildev-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: 1.1.0
     created: "2021-07-14T13:36:25.836445153Z"
     description: SMTP Server + Web Interface for viewing and testing emails during
